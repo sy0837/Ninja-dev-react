@@ -1,5 +1,5 @@
 import React from 'react';
-import './sass/style.scss'
+import Navbar from './components/Navbar';
 
 
 class App extends React.Component {
@@ -12,6 +12,7 @@ class App extends React.Component {
     return (
       <div>
         <div>
+          <Navbar/>
           <h1><center>Ninja-Developers-React-App</center></h1>
         </div>
       </div>
