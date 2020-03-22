@@ -1,0 +1,44 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  
+  overflow: hidden;
+  align-items: center;
+  text-align: left;
+  padding-left: 5rem;
+  background: 
+  
+    url('../img/ninjaDevWal.jpg') center top;
+  // background-size: cover;
+
+ .Name{
+  border-left: 7px solid $text-color;
+  padding-left: 2em;
+ }
+
+  h2{
+    // margin-left: 15rem;
+    color: $text-color;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+  }
+
+  &_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    // font-weight: map-get($font-weight , regular );
+    // padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: $text-color;
+    // border-bottom: 2px solid $text-color;
+   
+    width: 750px;
+
+
+    &-last {
+      color: $secondary-color;
+      // font-weight: 700;
+    }
+  }
+  
+}

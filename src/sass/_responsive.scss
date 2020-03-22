@@ -1,0 +1,42 @@
+@include media-lg{
+     .menu-btn{
+        visibility: hidden;
+    }
+    .nav{
+        visibility: visible;
+        .menu-nav{
+            display: block;
+            transform: translateY(0);
+            height: 100%;
+            background: transparent;
+            margin: 2em -0em 0 68%;
+            border-radius: 30px 0 0 30px;
+            text-align: right;
+            &_item{
+                display: inline;
+                padding-right: 1.5rem;
+            }
+            &_link{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+@include media-md{
+    .home{
+        background: 
+  
+    url('../img/mobDev.jpg') center top;
+    padding-left: 1em;
+    padding-top: 30vh;
+    .Name{
+        padding-left: 1em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    &_name{
+        font-size: 2em;
+    }
+    }
+}
