@@ -1,13 +1,22 @@
 import React from 'react';
+import './sass/style.scss'
 
-function App() {
-  return (
-    <div>
+
+class App extends React.Component {
+  constructor(){
+    super()
+    this.state={}
+  }
+
+  render(){
+    return (
       <div>
-        <h1><center>Ninja-Developers-React-App</center></h1>
+        <div>
+          <h1><center>Ninja-Developers-React-App</center></h1>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
