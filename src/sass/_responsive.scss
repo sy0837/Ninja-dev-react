@@ -36,9 +36,6 @@
 }
 @include media-md{
     .home{
-        background: 
-  
-    url('../img/mobDev.jpg') center top;
     padding-left: 1em;
     padding-top: 30vh;
     .Name{
@@ -50,21 +47,5 @@
     &_name{
         font-size: 2em;
     }
-    }
-}
-@include ipad{
-    .home{
-        background: 
-  
-        url('../img/macWal.jpg') center left;
-        background-size: cover;
-    }
-}
-@include mac{
-    .home{
-        background: 
-  
-        url('../img/macWal.jpg') center right;
-        background-size: cover;
     }
 }

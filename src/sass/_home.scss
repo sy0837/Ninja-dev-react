@@ -6,9 +6,13 @@
   align-items: center;
   text-align: left;
   padding-left: 5rem;
-  background: 
+  background: linear-gradient(
+    to left,
+    rgba($primary-color, 0.9),
+    rgba($secondary-color, 0.2)
+  ),
   
-    url('../img/ninjaDevWal@2x.jpg') center top;
+    url('../img/ninjadev.jpg') center top;
     background-size: cover;
 
 
