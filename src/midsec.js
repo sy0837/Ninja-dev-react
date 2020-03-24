@@ -6,7 +6,7 @@ function midSec() {
         <main>
            <section className="home">
            <div className="Name">
-             <h2>Welocme to</h2>
+             <h2>Welcome to</h2>
             
             <h1 className="home_name">
                 Ninja <span className="home_name-last">Developers</span>
